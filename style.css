@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-size: auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #f0f2f5;
+  font-family: "Poppins", Arial;
+}
+
+.s1>nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 220px;
+  padding-top: 130px;
+  padding-bottom: 0;
+
+}
+
+.d1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.h1 {
+  color: #1877f2;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-top: 50px;
+
+}
+
+.p1 {
+
+  font-size: 28px;
+  line-height: 33px;
+  width: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  width: auto;
+  height: 349 px;
+
+}
+
+.input {
+
+  margin-bottom: 20px;
+  border-color: rgb(241, 245, 245);
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border: none;
+}
+
+.a1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  background-color: #1877f2;
+  border: none;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  text-decoration: none;
+}
+
+.a2 {
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  background: none;
+  line-height: 1.34;
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 16px;
+
+
+}
+
+.a2:hover {
+  color: blue;
+  text-decoration: underline;
+
+}
+
+.form>hr {
+  color: rgb(251, 252, 252);
+  margin: 20px 16px;
+  size: 10px;
+
+}
+
+.a3 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #42b72a;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0;
+  margin: 0 90px 0 90px;
+}
+
+.a3:hover {
+  background-color: #3ba127;
+}
+
+.d3>h6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  text-align: center;
+  background: none;
+  font-size: 14px;
+  font-weight: normal;
+  background: none;
+}
+
+.a4 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  background: none;
+  font-size: 14px;
+  padding-right: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.a4:hover {
+  text-decoration: underline;
+
+}
