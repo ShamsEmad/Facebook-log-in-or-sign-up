@@ -7,11 +7,11 @@
   background-color: #f0f2f5;
   font-family: "Poppins", Arial;
 }
-
+ 
 .s1>nav {
   display: flex;
   justify-content: space-around;
-  padding: 220px;
+  padding: 0;
   padding-top: 130px;
   padding-bottom: 0;
 
@@ -155,4 +155,131 @@
 .a4:hover {
   text-decoration: underline;
 
+}
+@media (max-width:600px){
+
+  .s1>nav {
+  
+    flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+  align-items: center;
+
+  }
+  .h1 {
+   
+    font-size: 40px;
+    line-height: 1.0;
+    padding-top: 30px;
+  text-align: center;
+  
+  }
+  .p1 {
+
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .form {
+    width: 30vh;
+    height: 50vh;
+    margin: 20px;
+    align-items: center;
+  
+  }
+  .a1 {
+   
+
+    width: 200px;
+
+  }
+  .a3 {
+   
+    font-size: 14px;
+    width: 150px;
+    padding-bottom: 0;
+  }
+  .a4 {
+  
+    font-size: 12px;
+    padding-right: 4px;
+
+  
+  }
+  .d3>h6 {
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .form>hr {
+    margin:5px;
+    
+  
+  }
+  
+}
+@media (max-width:992px) and (min-width:600px){
+  .s1>nav {
+    display: flex;
+    padding-bottom: 0;
+    flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  align-items: center;
+
+  }
+  .h1 {
+    font-size: 50px;
+    padding-top: 30px;
+  text-align: center;
+  
+  }
+  .p1 {
+
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .form {
+   
+    width: 80vh;
+    height: 55vh;
+    margin: 20px;
+    margin-right: 0;
+    align-items: center;
+  
+  }
+  .a1 {
+  
+    padding: 0 16px;
+    width: 250px;
+  
+  }
+
+  .a3 {
+    
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .input {
+
+  
+    padding: 14px 20px;
+    width: 400px;
+   
+   
+  }
+  .a4 {
+  
+    font-size: 14px;
+    padding-right: 4px;
+
+  
+  }
+  .d3>h6 {
+    padding-top: 10px;
+    font-size: 14px;
+  }
 }
